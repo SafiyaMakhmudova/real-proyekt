@@ -16,17 +16,17 @@
   <div>
     <!-- Modal 2 -->
     <div
-      class="bg-white text-center rounded-3xl absolute top-[75%] w-[90%] left-1/2 transform -translate-x-1/2"
+      class="bg-white text-center rounded-3xl absolute top-[60%] w-[90%] left-1/2 transform -translate-x-1/2"
     >
-      <h2 class="text-text text-2xl font-semibold pt-[64px]">
+      <h2 class="text-text text-3xl font-semibold pt-[64px]">
         Services we can offer to our customers
       </h2>
-      <p class="pt-[42px] text-[#1D1D1D]">
+      <p class="pt-[42px] text-xl text-[#1D1D1D]">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod<br />
         tempor invidunt ut labore et.
       </p>
     </div>
-    <div class="flex justify-center gap-10 pb-[54px] flex-wrap px-[64px]">
+    <div class="flex justify-center gap-10 pb-[54px] flex-wrap px-[74px]">
       <div
         class="border-2 w-[314px] pt-16 px-[32px] pb-[55px] border-t-[#F69800] border-t-4 text-[#1D1D1D]"
       >
