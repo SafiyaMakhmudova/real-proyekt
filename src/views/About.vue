@@ -26,7 +26,7 @@
         tempor invidunt ut labore et.
       </p>
     </div>
-    <div class="flex justify-center gap-10 pb-[54px] flex-wrap px-[74px]">
+    <div class="flex justify-center gap-10 pb-[54px] flex-wrap  mx-[74px]">
       <div
         class="border-2 w-[314px] pt-16 px-[32px] pb-[55px] border-t-[#F69800] border-t-4 text-[#1D1D1D]"
       >
