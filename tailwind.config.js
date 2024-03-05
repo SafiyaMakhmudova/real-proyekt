@@ -8,6 +8,15 @@ export default {
         text:'#1A4900',
         footerColor:'#DEF9EC',
       }
+    },
+    screens:{
+      'mobile':'320px',
+      'middle':'471px',
+      'tablet':'640px',
+      'midd':'800px',
+      'mid':'900px',
+      'laptop':'1024px',
+      'desktop':'1280px'
     }
     
   },

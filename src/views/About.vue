@@ -16,7 +16,7 @@
   <div>
     <!-- Modal 2 -->
     <div
-      class="bg-white text-center rounded-3xl modal2 absolute top-[60%] w-[90%] left-1/2 transform -translate-x-1/2"
+      class="bg-white text-center rounded-3xl modal2 absolute mobile:top-[90%] middle:top-[70%] tablet:top-[80%] midd:top-[70%]  laptop:top-[70%]    desktop:top-[80%] w-[90%]  left-1/2 transform -translate-x-1/2"
     >
       <h2 class="text-text text-3xl font-semibold pt-[64px] modal2h2">
         Services we can offer to our customers
@@ -123,7 +123,7 @@
           be search engine optimized (SEO) because it lays the foundation for the technical quality,
         </span>
       </div>
-      <div class="w-[50%] modal3img">
+      <div class="w-[50%] modal3img mx-auto  text-center ">
         <img src="../assets/img/1 51.png" alt="">
       </div>
     </div>
@@ -148,11 +148,6 @@
     font-size:x-large ;
   }
 
-  .modal2 {
-    top: 80%;
-    margin-bottom: 45px;
-    
-  }
   .modal2h2 {
     width: 100%;
     font-size:x-large ;
@@ -198,11 +193,6 @@
     font-size:x-large ;
   }
 
-  .modal2 {
-    top: 80%;
-    margin-bottom: 45px;
-    
-  }
   .modal2h2 {
     width: 100%;
     font-size:x-large ;
@@ -248,11 +238,6 @@
     font-size:x-large ;
   }
 
-  .modal2 {
-    top: 67%;
-    margin-bottom: 45px;
-    
-  }
   .modal2h2 {
     width: 100%;
     font-size:x-large ;
@@ -267,7 +252,7 @@
     width: 100%;
     padding-bottom: 10px;
   }
-  
+/*   
   .modal3div {
     width: 100%;
     display: block;
@@ -282,6 +267,6 @@
   .modal3img {
     margin-top: 15px;
     width: 100%;
-  }
+  } */
 }
 </style>

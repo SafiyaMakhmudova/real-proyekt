@@ -1,6 +1,6 @@
 <template>
-  <div class="pt-[52px] px-[64px] pb-[42px] nav flex   items-center w-full justify-between">
-    <div class="flex gap-9 text-text text-lg navmenu">
+  <div class="pt-[52px] px-[50px] pb-[42px] nav flex   items-center w-full justify-between">
+    <div class="flex   gap-8 text-text text-lg navmenu">
       <h3>Books</h3>
       <h3>Stationary</h3>
       <a href="/">About us</a>
@@ -56,7 +56,7 @@
     </div>
 
   <div
-    class="nav-input border-2 rounded-3xl shadow-md mx-4 shadow-green-200 px-2 py-2 items-center text-center flex"
+    class="nav-input border-2 rounded-3xl shadow-md mx-4  shadow-green-200 px-2 py-2 items-center text-center flex"
   >
     <i class="bx bx-search text-green-950 mr-5 text-xl"></i>
     <input
@@ -75,7 +75,7 @@ const showMenu = ref(false);
 </script>
 
 <style scoped>
-@media only screen and (min-width: 330px) and (max-width: 596px) {
+@media only screen and (min-width: 330px) and (max-width: 871px) {
   .nav {
     padding: 10px;
     text-align: center;
@@ -109,7 +109,7 @@ const showMenu = ref(false);
   }
 }
 
-@media only screen and (min-width: 596px) and (max-width: 1300px) {
+@media only screen and (min-width: 872px) and (max-width: 1393px) {
   .bx-menu {
     display: none;
   }
