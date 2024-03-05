@@ -7,7 +7,7 @@
     </div>
     <div class="flex">
       <i
-        class="bx bx-menu cursor-pointer"
+        class="bx bx-menu cursor-pointer desktop:hidden "
         @click="showMenu = !showMenu"
       ></i>
 
@@ -38,7 +38,7 @@
   
   <div
       v-if="showMenu"
-      class="w-[100%] h-[500px] border-2 z-[1001]  absolute top-12   text-left bg-white py-2"
+      class="w-[100%] h-[500px] border-2 z-[1001]  absolute top-12   text-left bg-white py-2 desktop:hidden"
     >
       <div class="flex justify-between items-center border-b-2 w-full">
         <a class="p-2">Books</a>
@@ -109,7 +109,7 @@ const showMenu = ref(false);
   }
 }
 
-@media only screen and (min-width: 872px) and (max-width: 1393px) {
+@media only screen and (min-width: 617px) and (max-width: 1600px) {
   .bx-menu {
     display: none;
   }

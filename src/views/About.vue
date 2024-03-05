@@ -16,7 +16,7 @@
   <div>
     <!-- Modal 2 -->
     <div
-      class="bg-white text-center rounded-3xl modal2 absolute mobile:top-[90%] middle:top-[70%] tablet:top-[80%] midd:top-[70%]  laptop:top-[70%]    desktop:top-[80%] w-[90%]  left-1/2 transform -translate-x-1/2"
+      class="bg-white text-center rounded-3xl modal2 absolute mobile:top-[90%] middle:top-[70%] tablet:top-[80%] midd:top-[70%]  laptop:top-[70%]    desktop:top-[65%] w-[90%]  left-1/2 transform -translate-x-1/2"
     >
       <h2 class="text-text text-3xl font-semibold pt-[64px] modal2h2">
         Services we can offer to our customers
