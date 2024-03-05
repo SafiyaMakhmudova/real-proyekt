@@ -198,7 +198,7 @@
   }
 
   .modal2 {
-    top: 70%;
+    top: 90%;
     margin-bottom: 45px;
     
   }
