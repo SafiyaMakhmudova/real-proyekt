@@ -136,7 +136,7 @@
 </script>
 
 <style scoped>
-@media only screen and  (min-width:330px) and  (max-width: 768px) {
+@media only screen and  (min-width:330px) and  (max-width: 760px) {
   .modal1 {
     width: 100%;
     padding-left: 10px;
@@ -149,7 +149,7 @@
   }
 
   .modal2 {
-    top: 90%;
+    top: 80%;
     margin-bottom: 45px;
     
   }
@@ -186,7 +186,7 @@
 }
 
 
-@media only screen and  (min-width:390px) and  (max-width: 897px) {
+@media only screen and  (min-width:374px) and  (max-width: 897px) {
   .modal1 {
     width: 100%;
     padding-left: 20px;
@@ -199,7 +199,7 @@
   }
 
   .modal2 {
-    top: 67%;
+    top: 80%;
     margin-bottom: 45px;
     
   }
@@ -234,6 +234,7 @@
     width: 100%;
   }
 }
+
 
 @media only screen and  (min-width:427px) and  (max-width: 932px) {
   .modal1 {
