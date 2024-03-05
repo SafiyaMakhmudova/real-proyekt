@@ -1,7 +1,7 @@
 <template>
   <!-- Modal 1 -->
   <div class="text-left relative mb-[200px]">
-    <div class="bg-[#FFE7B7] pt-[83px] pl-[240px]  modal1 pb-[180px] pr-[124px]">
+    <div class="bg-[#FFE7B7] pt-[83px] pl-[240px]   modal1 pb-[180px] pr-[124px]">
       <h2 class="text-text text-3xl mb-5 font-semibold modal1h2 ">What we can offer your SaaS Business</h2>
       <p class="text-[#665C49] text-xl font-medium modal1p">
         We have chosen to only collaborate and work with SaaS businesses, this is because our<br />
@@ -136,7 +136,7 @@
 </script>
 
 <style scoped>
-@media only screen and (max-width: 768px) {
+@media only screen and  (min-width:330px) and  (max-width: 768px) {
   .modal1 {
     width: 100%;
     padding-left: 10px;
@@ -185,7 +185,8 @@
   }
 }
 
-@media only screen and (max-width: 932px) {
+
+@media only screen and  (min-width:390px) and  (max-width: 897px) {
   .modal1 {
     width: 100%;
     padding-left: 20px;
@@ -198,7 +199,56 @@
   }
 
   .modal2 {
-    top: 90%;
+    top: 67%;
+    margin-bottom: 45px;
+    
+  }
+  .modal2h2 {
+    width: 100%;
+    font-size:x-large ;
+  }
+
+  .modal3 {
+    padding: 20px;
+  }
+
+  .modal3h2 {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  
+  .modal3div {
+    width: 100%;
+    display: block;
+  }
+
+  
+  .modal3w {
+    width: 100%;
+  }
+
+  
+  .modal3img {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+@media only screen and  (min-width:427px) and  (max-width: 932px) {
+  .modal1 {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  .modal1h2 {
+    width: 100%;
+    font-size:x-large ;
+  }
+
+  .modal2 {
+    top: 67%;
     margin-bottom: 45px;
     
   }

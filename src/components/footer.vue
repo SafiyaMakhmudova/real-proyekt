@@ -1,6 +1,6 @@
 <template>
-    <div class=" bg-footerColor flex  px-[64px] pt-[56px] pb-[82px] ">
-        <div class="text-text  w-[50%]">
+    <div class=" bg-footerColor flex  px-[64px] pt-[56px] pb-[82px] footer ">
+        <div class="text-text  w-[50%] footer-div1">
             <div>
                 <h2 class="text-xl mb-3 "><i>Catalog</i></h2>
                 <div class="flex flex-col">
@@ -14,7 +14,7 @@
                 <a href="/">About us</a>
             </div>
         </div>
-        <div class="text-text w-[50%]">
+        <div class="text-text w-[50%] footer-div2">
             <h2 class="text-lg mb-2"><i>FOLLOW US</i></h2>
             <div class="flex flex-col gap-2  ">
                 <a href="/"><i class='bx bxl-telegram border-2 rounded-full bg-text text-white p-1  '></i>Telegram</a>
@@ -33,5 +33,11 @@
 </script>
 
 <style  scoped>
+@media only screen and (min-width:330px) and   (max-width: 596px) {
+  .footer {
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+}
 
 </style>
