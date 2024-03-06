@@ -111,7 +111,7 @@
       <div class=" rounded-2xl bg-white">
         
         <div v-for="card in cardObj" class=" flex p-3 items-center gap-4 justify-between" :key="card.id">
-            <div>
+            <div class="w-[20%]">
               <img :src="card.img " alt=""/>
             </div>
             <div>
