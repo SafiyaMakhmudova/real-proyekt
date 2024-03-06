@@ -26,7 +26,7 @@
         tempor invidunt ut labore et.
       </p>
     </div>
-    <div class="flex justify-center gap-10 pb-[54px] flex-wrap  mx-[74px]">
+    <div class="mobile:hidden middle:flex midd:flex mid:flex laptop:flex desktop:flex  justify-center gap-10 pb-[54px] flex-wrap  mx-[54px]">
       <div
         class="border-2 w-[314px] pt-16 px-[32px] pb-[55px] border-t-[#F69800] border-t-4 text-[#1D1D1D]"
       >
@@ -106,6 +106,21 @@
         </p>
       </div>
     </div>
+    <div class="bg-orange-200 pt-7 pb-7 px-3 desktop:hidden laptop:hidden middle:hidden midd:hidden mid:hidden">
+      
+      <div class="border-2 rounded-2xl bg-white">
+        
+        <div v-for="card in cardObj" class=" flex p-3 items-center gap-4 justify-between" :key="card.id">
+            <div class="border-2">
+              <img :src="card.img " alt=""/>
+            </div>
+            <div>
+              <h2 class="text-green-900 font-semibold  ">{{ card.title }}</h2>
+              <p>{{ card.description }}</p>
+            </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Modal 3 -->
@@ -131,7 +146,7 @@
 </template>
 
 <script setup>
-
+import cardObj from '@/composable/index'
 
 </script>
 
